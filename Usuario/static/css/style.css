@@ -1,0 +1,132 @@
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+}
+.login {
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+}
+.header {
+	border: 1px solid #c0c0c0;
+	width: 800px;
+	height: 120px;
+	background: #EEEEEE;
+	margin: 0 auto;
+	-webkit-box-shadow: 0 1px 10px #D9D9D9;
+	-moz-box-shadow: 0 1px 10px #D9D9D9;
+	-ms-box-shadow: 0 1px 10px #D9D9D9;
+	-o-box-shadow: 0 1px 10px #D9D9D9;
+	box-shadow: 0 1px 10px #D9D9D9;
+}
+.menu {
+	position:relative;
+	top:-80px;
+	left:200px;
+	list-style: none;
+	width: 760px;
+	height: 50px;
+}
+.menu li {
+	position: relative;
+	float: left;
+	border-right: 1px solid #c0c0c0;
+}
+.menu li a {
+	color: #333;
+	text-decoration: none;
+	padding: 5px 10px;
+	display: block;
+}
+.menu li a:hover {
+	background: #333;
+	color: #fff;
+	-moz-box-shadow: 0 3px 10px 0 #CCC;
+	-webkit-box-shadow: 0 3px 10px 0 #ccc;
+	text-shadow: 0px 0px 5px #fff;
+}
+.menu li ul {
+	position: absolute;
+	top: 25px;
+	left: 0;
+	background-color: #fff;
+	display: none;
+	width: 110px;
+}
+.menu li:hover ul, .menu li.over ul {
+	display: block;
+}
+.menu li ul li {
+	border: 1px solid #c0c0c0;
+	display: block;
+	width: 150px;
+}
+.menu li ul li {
+	position: relative;
+	right: 40px;
+	margin: 0 auto;
+}
+.header img {
+	margin-top:30px;
+}
+.centro h3 {
+	margin: 0 auto;
+}
+.centro {
+	position: relative;
+	top: 0px;
+	background: #F9F9F9;
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+	-webkit-box-shadow: 0 1px 10px #D9D9D9;
+	-moz-box-shadow: 0 1px 10px #D9D9D9;
+	-ms-box-shadow: 0 1px 10px #D9D9D9;
+	-o-box-shadow: 0 1px 10px #D9D9D9;
+	box-shadow: 0 1px 10px #D9D9D9;
+}
+.cabecalho h3 {
+	text-align: center;
+}
+.centro table {
+	position:relative;
+	width: 600px;
+	margin: 0 auto;
+}
+.form-container {
+	width: 600px;
+	margin: 0 auto;
+}
+.table-container {
+	width:600px;
+	height:500px;
+	margin:0 auto;
+}
+.centro form input {
+	margin-left: 20px;
+}
+.rodape {
+	color: white;
+	height: 100px;
+	width: 800px;
+	position: relative;
+	background: #006666;
+	margin: 0 auto;
+	text-align: center;
+	-webkit-box-shadow: 0 1px 10px #D9D9D9;
+	-moz-box-shadow: 0 1px 10px #D9D9D9;
+	-ms-box-shadow: 0 1px 10px #D9D9D9;
+	-o-box-shadow: 0 1px 10px #D9D9D9;
+	box-shadow: 0 1px 10px #D9D9D9;
+}
+.rodape-texto {
+	position:relative;
+	top:20px;
+}
+
+#permissoes .coluna {
+	float:left;
+}
+#permissoes {
+	height:200px;
+}
